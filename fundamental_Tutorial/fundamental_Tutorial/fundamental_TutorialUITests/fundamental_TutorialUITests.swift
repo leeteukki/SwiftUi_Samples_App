@@ -1,6 +1,6 @@
 //
 //  fundamental_TutorialUITests.swift
-//  fundamental TutorialUITests
+//  fundamental_TutorialUITests
 //
 //  Created by lee teukki on 2021/07/25.
 //

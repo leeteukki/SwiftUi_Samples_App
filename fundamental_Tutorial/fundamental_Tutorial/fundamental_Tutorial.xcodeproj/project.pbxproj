@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A0B7A25326AD49630021254A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7A25226AD49630021254A /* AppDelegate.swift */; };
-		A0B7A25526AD49630021254A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7A25426AD49630021254A /* SceneDelegate.swift */; };
-		A0B7A25726AD49630021254A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7A25626AD49630021254A /* ContentView.swift */; };
-		A0B7A25926AD49650021254A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B7A25826AD49650021254A /* Assets.xcassets */; };
-		A0B7A25C26AD49650021254A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B7A25B26AD49650021254A /* Preview Assets.xcassets */; };
-		A0B7A25F26AD49650021254A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B7A25D26AD49650021254A /* LaunchScreen.storyboard */; };
-		A0B7A26A26AD49650021254A /* fundamental_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7A26926AD49650021254A /* fundamental_TutorialTests.swift */; };
-		A0B7A27526AD49650021254A /* fundamental_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7A27426AD49650021254A /* fundamental_TutorialUITests.swift */; };
+		A0092F1826AD531F006CF075 /* fundamental_TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0092F1726AD531F006CF075 /* fundamental_TutorialApp.swift */; };
+		A0092F1A26AD531F006CF075 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0092F1926AD531F006CF075 /* ContentView.swift */; };
+		A0092F1C26AD5320006CF075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0092F1B26AD5320006CF075 /* Assets.xcassets */; };
+		A0092F1F26AD5320006CF075 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0092F1E26AD5320006CF075 /* Preview Assets.xcassets */; };
+		A0092F2A26AD5320006CF075 /* fundamental_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0092F2926AD5320006CF075 /* fundamental_TutorialTests.swift */; };
+		A0092F3526AD5320006CF075 /* fundamental_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0092F3426AD5320006CF075 /* fundamental_TutorialUITests.swift */; };
+		A0092F4326AD5F09006CF075 /* MyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0092F4226AD5F09006CF075 /* MyStackView.swift */; };
+		A0092F4726AF10B0006CF075 /* MyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0092F4626AF10B0006CF075 /* MyText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A0B7A26626AD49650021254A /* PBXContainerItemProxy */ = {
+		A0092F2626AD5320006CF075 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A0B7A24726AD49630021254A /* Project object */;
+			containerPortal = A0092F0C26AD531F006CF075 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A0B7A24E26AD49630021254A;
-			remoteInfo = "fundamental Tutorial";
+			remoteGlobalIDString = A0092F1326AD531F006CF075;
+			remoteInfo = fundamental_Tutorial;
 		};
-		A0B7A27126AD49650021254A /* PBXContainerItemProxy */ = {
+		A0092F3126AD5320006CF075 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A0B7A24726AD49630021254A /* Project object */;
+			containerPortal = A0092F0C26AD531F006CF075 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A0B7A24E26AD49630021254A;
-			remoteInfo = "fundamental Tutorial";
+			remoteGlobalIDString = A0092F1326AD531F006CF075;
+			remoteInfo = fundamental_Tutorial;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A0B7A24F26AD49630021254A /* fundamental Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fundamental Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0B7A25226AD49630021254A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0B7A25426AD49630021254A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A0B7A25626AD49630021254A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A0B7A25826AD49650021254A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A0B7A25B26AD49650021254A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A0B7A25E26AD49650021254A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A0B7A26026AD49650021254A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0B7A26526AD49650021254A /* fundamental TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fundamental TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0B7A26926AD49650021254A /* fundamental_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fundamental_TutorialTests.swift; sourceTree = "<group>"; };
-		A0B7A26B26AD49650021254A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0B7A27026AD49650021254A /* fundamental TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fundamental TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0B7A27426AD49650021254A /* fundamental_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fundamental_TutorialUITests.swift; sourceTree = "<group>"; };
-		A0B7A27626AD49650021254A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0092F1426AD531F006CF075 /* fundamental_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fundamental_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0092F1726AD531F006CF075 /* fundamental_TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fundamental_TutorialApp.swift; sourceTree = "<group>"; };
+		A0092F1926AD531F006CF075 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0092F1B26AD5320006CF075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0092F1E26AD5320006CF075 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0092F2026AD5320006CF075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0092F2526AD5320006CF075 /* fundamental_TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fundamental_TutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0092F2926AD5320006CF075 /* fundamental_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fundamental_TutorialTests.swift; sourceTree = "<group>"; };
+		A0092F2B26AD5320006CF075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0092F3026AD5320006CF075 /* fundamental_TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fundamental_TutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0092F3426AD5320006CF075 /* fundamental_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fundamental_TutorialUITests.swift; sourceTree = "<group>"; };
+		A0092F3626AD5320006CF075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0092F4226AD5F09006CF075 /* MyStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStackView.swift; sourceTree = "<group>"; };
+		A0092F4626AF10B0006CF075 /* MyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A0B7A24C26AD49630021254A /* Frameworks */ = {
+		A0092F1126AD531F006CF075 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0B7A26226AD49650021254A /* Frameworks */ = {
+		A0092F2226AD5320006CF075 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0B7A26D26AD49650021254A /* Frameworks */ = {
+		A0092F2D26AD5320006CF075 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,145 +76,145 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A0B7A24626AD49630021254A = {
+		A0092F0B26AD531F006CF075 = {
 			isa = PBXGroup;
 			children = (
-				A0B7A25126AD49630021254A /* fundamental Tutorial */,
-				A0B7A26826AD49650021254A /* fundamental TutorialTests */,
-				A0B7A27326AD49650021254A /* fundamental TutorialUITests */,
-				A0B7A25026AD49630021254A /* Products */,
+				A0092F1626AD531F006CF075 /* fundamental_Tutorial */,
+				A0092F2826AD5320006CF075 /* fundamental_TutorialTests */,
+				A0092F3326AD5320006CF075 /* fundamental_TutorialUITests */,
+				A0092F1526AD531F006CF075 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A0B7A25026AD49630021254A /* Products */ = {
+		A0092F1526AD531F006CF075 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0B7A24F26AD49630021254A /* fundamental Tutorial.app */,
-				A0B7A26526AD49650021254A /* fundamental TutorialTests.xctest */,
-				A0B7A27026AD49650021254A /* fundamental TutorialUITests.xctest */,
+				A0092F1426AD531F006CF075 /* fundamental_Tutorial.app */,
+				A0092F2526AD5320006CF075 /* fundamental_TutorialTests.xctest */,
+				A0092F3026AD5320006CF075 /* fundamental_TutorialUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A0B7A25126AD49630021254A /* fundamental Tutorial */ = {
+		A0092F1626AD531F006CF075 /* fundamental_Tutorial */ = {
 			isa = PBXGroup;
 			children = (
-				A0B7A25226AD49630021254A /* AppDelegate.swift */,
-				A0B7A25426AD49630021254A /* SceneDelegate.swift */,
-				A0B7A25626AD49630021254A /* ContentView.swift */,
-				A0B7A25826AD49650021254A /* Assets.xcassets */,
-				A0B7A25D26AD49650021254A /* LaunchScreen.storyboard */,
-				A0B7A26026AD49650021254A /* Info.plist */,
-				A0B7A25A26AD49650021254A /* Preview Content */,
+				A0092F1726AD531F006CF075 /* fundamental_TutorialApp.swift */,
+				A0092F1926AD531F006CF075 /* ContentView.swift */,
+				A0092F1B26AD5320006CF075 /* Assets.xcassets */,
+				A0092F2026AD5320006CF075 /* Info.plist */,
+				A0092F1D26AD5320006CF075 /* Preview Content */,
+				A0092F4226AD5F09006CF075 /* MyStackView.swift */,
+				A0092F4626AF10B0006CF075 /* MyText.swift */,
 			);
-			path = "fundamental Tutorial";
+			path = fundamental_Tutorial;
 			sourceTree = "<group>";
 		};
-		A0B7A25A26AD49650021254A /* Preview Content */ = {
+		A0092F1D26AD5320006CF075 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A0B7A25B26AD49650021254A /* Preview Assets.xcassets */,
+				A0092F1E26AD5320006CF075 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A0B7A26826AD49650021254A /* fundamental TutorialTests */ = {
+		A0092F2826AD5320006CF075 /* fundamental_TutorialTests */ = {
 			isa = PBXGroup;
 			children = (
-				A0B7A26926AD49650021254A /* fundamental_TutorialTests.swift */,
-				A0B7A26B26AD49650021254A /* Info.plist */,
+				A0092F2926AD5320006CF075 /* fundamental_TutorialTests.swift */,
+				A0092F2B26AD5320006CF075 /* Info.plist */,
 			);
-			path = "fundamental TutorialTests";
+			path = fundamental_TutorialTests;
 			sourceTree = "<group>";
 		};
-		A0B7A27326AD49650021254A /* fundamental TutorialUITests */ = {
+		A0092F3326AD5320006CF075 /* fundamental_TutorialUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A0B7A27426AD49650021254A /* fundamental_TutorialUITests.swift */,
-				A0B7A27626AD49650021254A /* Info.plist */,
+				A0092F3426AD5320006CF075 /* fundamental_TutorialUITests.swift */,
+				A0092F3626AD5320006CF075 /* Info.plist */,
 			);
-			path = "fundamental TutorialUITests";
+			path = fundamental_TutorialUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A0B7A24E26AD49630021254A /* fundamental Tutorial */ = {
+		A0092F1326AD531F006CF075 /* fundamental_Tutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0B7A27926AD49650021254A /* Build configuration list for PBXNativeTarget "fundamental Tutorial" */;
+			buildConfigurationList = A0092F3926AD5320006CF075 /* Build configuration list for PBXNativeTarget "fundamental_Tutorial" */;
 			buildPhases = (
-				A0B7A24B26AD49630021254A /* Sources */,
-				A0B7A24C26AD49630021254A /* Frameworks */,
-				A0B7A24D26AD49630021254A /* Resources */,
+				A0092F1026AD531F006CF075 /* Sources */,
+				A0092F1126AD531F006CF075 /* Frameworks */,
+				A0092F1226AD531F006CF075 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "fundamental Tutorial";
-			productName = "fundamental Tutorial";
-			productReference = A0B7A24F26AD49630021254A /* fundamental Tutorial.app */;
+			name = fundamental_Tutorial;
+			productName = fundamental_Tutorial;
+			productReference = A0092F1426AD531F006CF075 /* fundamental_Tutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A0B7A26426AD49650021254A /* fundamental TutorialTests */ = {
+		A0092F2426AD5320006CF075 /* fundamental_TutorialTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0B7A27C26AD49650021254A /* Build configuration list for PBXNativeTarget "fundamental TutorialTests" */;
+			buildConfigurationList = A0092F3C26AD5320006CF075 /* Build configuration list for PBXNativeTarget "fundamental_TutorialTests" */;
 			buildPhases = (
-				A0B7A26126AD49650021254A /* Sources */,
-				A0B7A26226AD49650021254A /* Frameworks */,
-				A0B7A26326AD49650021254A /* Resources */,
+				A0092F2126AD5320006CF075 /* Sources */,
+				A0092F2226AD5320006CF075 /* Frameworks */,
+				A0092F2326AD5320006CF075 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A0B7A26726AD49650021254A /* PBXTargetDependency */,
+				A0092F2726AD5320006CF075 /* PBXTargetDependency */,
 			);
-			name = "fundamental TutorialTests";
-			productName = "fundamental TutorialTests";
-			productReference = A0B7A26526AD49650021254A /* fundamental TutorialTests.xctest */;
+			name = fundamental_TutorialTests;
+			productName = fundamental_TutorialTests;
+			productReference = A0092F2526AD5320006CF075 /* fundamental_TutorialTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A0B7A26F26AD49650021254A /* fundamental TutorialUITests */ = {
+		A0092F2F26AD5320006CF075 /* fundamental_TutorialUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0B7A27F26AD49650021254A /* Build configuration list for PBXNativeTarget "fundamental TutorialUITests" */;
+			buildConfigurationList = A0092F3F26AD5320006CF075 /* Build configuration list for PBXNativeTarget "fundamental_TutorialUITests" */;
 			buildPhases = (
-				A0B7A26C26AD49650021254A /* Sources */,
-				A0B7A26D26AD49650021254A /* Frameworks */,
-				A0B7A26E26AD49650021254A /* Resources */,
+				A0092F2C26AD5320006CF075 /* Sources */,
+				A0092F2D26AD5320006CF075 /* Frameworks */,
+				A0092F2E26AD5320006CF075 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A0B7A27226AD49650021254A /* PBXTargetDependency */,
+				A0092F3226AD5320006CF075 /* PBXTargetDependency */,
 			);
-			name = "fundamental TutorialUITests";
-			productName = "fundamental TutorialUITests";
-			productReference = A0B7A27026AD49650021254A /* fundamental TutorialUITests.xctest */;
+			name = fundamental_TutorialUITests;
+			productName = fundamental_TutorialUITests;
+			productReference = A0092F3026AD5320006CF075 /* fundamental_TutorialUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A0B7A24726AD49630021254A /* Project object */ = {
+		A0092F0C26AD531F006CF075 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					A0B7A24E26AD49630021254A = {
+					A0092F1326AD531F006CF075 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
-					A0B7A26426AD49650021254A = {
+					A0092F2426AD5320006CF075 = {
 						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = A0B7A24E26AD49630021254A;
+						TestTargetID = A0092F1326AD531F006CF075;
 					};
-					A0B7A26F26AD49650021254A = {
+					A0092F2F26AD5320006CF075 = {
 						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = A0B7A24E26AD49630021254A;
+						TestTargetID = A0092F1326AD531F006CF075;
 					};
 				};
 			};
-			buildConfigurationList = A0B7A24A26AD49630021254A /* Build configuration list for PBXProject "fundamental Tutorial" */;
+			buildConfigurationList = A0092F0F26AD531F006CF075 /* Build configuration list for PBXProject "fundamental_Tutorial" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,37 +222,36 @@
 				en,
 				Base,
 			);
-			mainGroup = A0B7A24626AD49630021254A;
-			productRefGroup = A0B7A25026AD49630021254A /* Products */;
+			mainGroup = A0092F0B26AD531F006CF075;
+			productRefGroup = A0092F1526AD531F006CF075 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0B7A24E26AD49630021254A /* fundamental Tutorial */,
-				A0B7A26426AD49650021254A /* fundamental TutorialTests */,
-				A0B7A26F26AD49650021254A /* fundamental TutorialUITests */,
+				A0092F1326AD531F006CF075 /* fundamental_Tutorial */,
+				A0092F2426AD5320006CF075 /* fundamental_TutorialTests */,
+				A0092F2F26AD5320006CF075 /* fundamental_TutorialUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A0B7A24D26AD49630021254A /* Resources */ = {
+		A0092F1226AD531F006CF075 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B7A25F26AD49650021254A /* LaunchScreen.storyboard in Resources */,
-				A0B7A25C26AD49650021254A /* Preview Assets.xcassets in Resources */,
-				A0B7A25926AD49650021254A /* Assets.xcassets in Resources */,
+				A0092F1F26AD5320006CF075 /* Preview Assets.xcassets in Resources */,
+				A0092F1C26AD5320006CF075 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0B7A26326AD49650021254A /* Resources */ = {
+		A0092F2326AD5320006CF075 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0B7A26E26AD49650021254A /* Resources */ = {
+		A0092F2E26AD5320006CF075 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,60 +261,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A0B7A24B26AD49630021254A /* Sources */ = {
+		A0092F1026AD531F006CF075 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B7A25326AD49630021254A /* AppDelegate.swift in Sources */,
-				A0B7A25526AD49630021254A /* SceneDelegate.swift in Sources */,
-				A0B7A25726AD49630021254A /* ContentView.swift in Sources */,
+				A0092F1A26AD531F006CF075 /* ContentView.swift in Sources */,
+				A0092F1826AD531F006CF075 /* fundamental_TutorialApp.swift in Sources */,
+				A0092F4726AF10B0006CF075 /* MyText.swift in Sources */,
+				A0092F4326AD5F09006CF075 /* MyStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0B7A26126AD49650021254A /* Sources */ = {
+		A0092F2126AD5320006CF075 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B7A26A26AD49650021254A /* fundamental_TutorialTests.swift in Sources */,
+				A0092F2A26AD5320006CF075 /* fundamental_TutorialTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0B7A26C26AD49650021254A /* Sources */ = {
+		A0092F2C26AD5320006CF075 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B7A27526AD49650021254A /* fundamental_TutorialUITests.swift in Sources */,
+				A0092F3526AD5320006CF075 /* fundamental_TutorialUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A0B7A26726AD49650021254A /* PBXTargetDependency */ = {
+		A0092F2726AD5320006CF075 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A0B7A24E26AD49630021254A /* fundamental Tutorial */;
-			targetProxy = A0B7A26626AD49650021254A /* PBXContainerItemProxy */;
+			target = A0092F1326AD531F006CF075 /* fundamental_Tutorial */;
+			targetProxy = A0092F2626AD5320006CF075 /* PBXContainerItemProxy */;
 		};
-		A0B7A27226AD49650021254A /* PBXTargetDependency */ = {
+		A0092F3226AD5320006CF075 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A0B7A24E26AD49630021254A /* fundamental Tutorial */;
-			targetProxy = A0B7A27126AD49650021254A /* PBXContainerItemProxy */;
+			target = A0092F1326AD531F006CF075 /* fundamental_Tutorial */;
+			targetProxy = A0092F3126AD5320006CF075 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		A0B7A25D26AD49650021254A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0B7A25E26AD49650021254A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		A0B7A27726AD49650021254A /* Debug */ = {
+		A0092F3726AD5320006CF075 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +365,7 @@
 			};
 			name = Debug;
 		};
-		A0B7A27826AD49650021254A /* Release */ = {
+		A0092F3826AD5320006CF075 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -431,16 +420,17 @@
 			};
 			name = Release;
 		};
-		A0B7A27A26AD49650021254A /* Debug */ = {
+		A0092F3A26AD5320006CF075 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"fundamental Tutorial/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"fundamental_Tutorial/Preview Content\"";
 				DEVELOPMENT_TEAM = G9UE7ENJBF;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "fundamental Tutorial/Info.plist";
+				INFOPLIST_FILE = fundamental_Tutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,16 +442,17 @@
 			};
 			name = Debug;
 		};
-		A0B7A27B26AD49650021254A /* Release */ = {
+		A0092F3B26AD5320006CF075 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"fundamental Tutorial/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"fundamental_Tutorial/Preview Content\"";
 				DEVELOPMENT_TEAM = G9UE7ENJBF;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "fundamental Tutorial/Info.plist";
+				INFOPLIST_FILE = fundamental_Tutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,15 +464,15 @@
 			};
 			name = Release;
 		};
-		A0B7A27D26AD49650021254A /* Debug */ = {
+		A0092F3D26AD5320006CF075 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9UE7ENJBF;
-				INFOPLIST_FILE = "fundamental TutorialTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				INFOPLIST_FILE = fundamental_TutorialTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,19 +482,19 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fundamental Tutorial.app/fundamental Tutorial";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fundamental_Tutorial.app/fundamental_Tutorial";
 			};
 			name = Debug;
 		};
-		A0B7A27E26AD49650021254A /* Release */ = {
+		A0092F3E26AD5320006CF075 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9UE7ENJBF;
-				INFOPLIST_FILE = "fundamental TutorialTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				INFOPLIST_FILE = fundamental_TutorialTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -513,17 +504,17 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fundamental Tutorial.app/fundamental Tutorial";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fundamental_Tutorial.app/fundamental_Tutorial";
 			};
 			name = Release;
 		};
-		A0B7A28026AD49650021254A /* Debug */ = {
+		A0092F4026AD5320006CF075 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9UE7ENJBF;
-				INFOPLIST_FILE = "fundamental TutorialUITests/Info.plist";
+				INFOPLIST_FILE = fundamental_TutorialUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -533,17 +524,17 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "fundamental Tutorial";
+				TEST_TARGET_NAME = fundamental_Tutorial;
 			};
 			name = Debug;
 		};
-		A0B7A28126AD49650021254A /* Release */ = {
+		A0092F4126AD5320006CF075 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9UE7ENJBF;
-				INFOPLIST_FILE = "fundamental TutorialUITests/Info.plist";
+				INFOPLIST_FILE = fundamental_TutorialUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -553,50 +544,50 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "fundamental Tutorial";
+				TEST_TARGET_NAME = fundamental_Tutorial;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0B7A24A26AD49630021254A /* Build configuration list for PBXProject "fundamental Tutorial" */ = {
+		A0092F0F26AD531F006CF075 /* Build configuration list for PBXProject "fundamental_Tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0B7A27726AD49650021254A /* Debug */,
-				A0B7A27826AD49650021254A /* Release */,
+				A0092F3726AD5320006CF075 /* Debug */,
+				A0092F3826AD5320006CF075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0B7A27926AD49650021254A /* Build configuration list for PBXNativeTarget "fundamental Tutorial" */ = {
+		A0092F3926AD5320006CF075 /* Build configuration list for PBXNativeTarget "fundamental_Tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0B7A27A26AD49650021254A /* Debug */,
-				A0B7A27B26AD49650021254A /* Release */,
+				A0092F3A26AD5320006CF075 /* Debug */,
+				A0092F3B26AD5320006CF075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0B7A27C26AD49650021254A /* Build configuration list for PBXNativeTarget "fundamental TutorialTests" */ = {
+		A0092F3C26AD5320006CF075 /* Build configuration list for PBXNativeTarget "fundamental_TutorialTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0B7A27D26AD49650021254A /* Debug */,
-				A0B7A27E26AD49650021254A /* Release */,
+				A0092F3D26AD5320006CF075 /* Debug */,
+				A0092F3E26AD5320006CF075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0B7A27F26AD49650021254A /* Build configuration list for PBXNativeTarget "fundamental TutorialUITests" */ = {
+		A0092F3F26AD5320006CF075 /* Build configuration list for PBXNativeTarget "fundamental_TutorialUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0B7A28026AD49650021254A /* Debug */,
-				A0B7A28126AD49650021254A /* Release */,
+				A0092F4026AD5320006CF075 /* Debug */,
+				A0092F4126AD5320006CF075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A0B7A24726AD49630021254A /* Project object */;
+	rootObject = A0092F0C26AD531F006CF075 /* Project object */;
 }
