@@ -23,9 +23,9 @@ struct ContentView: View {
                 HStack{
                 
                 
-                myVstackView()
-                myVstackView()
-                myVstackView()
+                myVstackView(isActivated: $isActivated)
+                myVstackView(isActivated: $isActivated)
+                myVstackView(isActivated: $isActivated)
                 
                
                 
@@ -48,7 +48,7 @@ struct ContentView: View {
                 
                 // 네비게이션 버튼 (링크)
                 NavigationLink(
-                    destination: MyTextView()){
+                    destination: MyTextView(isActivated: $isActivated)){
                     Text("네비게이션")
                         .font(.system(size: 30))
                         .fontWeight(.heavy)
